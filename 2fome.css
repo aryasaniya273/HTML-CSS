@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.a{
+    width: 1000px;
+    height: 500px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: start;
+}
+.b{
+    width: 50%;
+    height: 50%;
+    background-color:pink;
+    margin-left: 30%;
+    border-radius:20px;
+    margin-top: 10%;
+}
+.b h1{
+    margin-left: 40%;
+}
+.h3 {
+    margin-top: 10%;
+    border-radius: 50%;
+}
+  

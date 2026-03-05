@@ -1,0 +1,262 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+   
+}
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(108, 185, 206);
+    position: fixed;
+    top: 0px;
+    z-index: 123;
+}
+
+
+button{
+    margin-left: 60%;
+    font-family: 'Times New Roman', Times, serif;   
+}
+.a2{
+    width: 100%;
+    height: 20vh;
+    /* background-color: rgb(235, 229, 228); */
+    float: left;
+}
+.a2 ul{
+    padding: 20px;
+    margin-top: 17px;
+}
+.a2 ul li{
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    margin-right:5%;
+    color: black;
+}
+.a2 ul li a{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.a{
+    width: 100%;
+    height: 70vh;
+    /* background-color: rgb(220, 221, 228); */
+    background-image: url(./img/campaign-creators-gMsnXqILjp4-unsplash.jpg);
+    background-size: cover;
+    background-position: center ; 
+}
+.a1 {
+     width: 100%;
+     height: 100px;
+     /* background-color: rgb(249, 244, 238); */
+}
+.blur{
+    width: 100%;
+    height: 70vh;
+    background-color: rgba(0,0,0,0.5);
+    position: relative;
+}
+.b search h3 {
+    width: 10%;
+    height: 10%;
+    background-color:black;
+    border-radius: 25px;
+    padding: 5px;
+    text-align: center; 
+}
+.blur button {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(176, 218, 229);
+    border-radius: 50px;
+    font-size: 20px;
+    margin-top: 5%;
+}
+.b h1{
+    margin-left:10%;
+    margin-top: 7%;
+    font-size: 70px;
+    color: white; 
+}
+.space{
+    width: 100%;
+    height: 10vh;
+}
+.c{
+    width: 100%;
+    height: 70vh;
+    background-color:rgb(24, 36, 132);  
+    background-attachment: fixed;
+    background-image: url(img/israel-andrade-YI_9SivVt_s-unsplash\(1\).jpg);  
+    background-position: center; 
+    background-size: contain; 
+  
+}   
+.c1 h3 a{
+   margin-left: 40%;
+   font-size: 40px;
+   color:white; 
+   
+}
+.c2 h1 {
+    margin-left:25%;
+    margin-top: 5%;
+    font-size: 40px;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.d{
+    width: 100%;
+    padding: 50px;
+    height: 400px;
+    /* background-color: blueviolet; */
+}
+.d1{
+    width: 30%;
+    height: 100%;
+    /* background-color: aqua; */
+    float: left;
+    border: 2px solid gray;
+    margin: 10px;
+ 
+}
+.d2{
+     width: 30%;
+    height: 100%;
+    /* background-color: rgb(179, 166, 159); */
+    float: left;
+      border: 2px solid gray;
+      margin: 10px;   
+}
+.d3{
+     width: 30%;
+    height: 100%;
+    margin: 10px;
+    /* background-color: rgb(255, 0, 162); */
+    float: left;
+      border: 2px solid gray;
+}
+.d h2{
+     margin-top: 30%;
+    margin-left: 30%;
+}
+.d p{
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+.e{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(201, 213, 235);
+}
+.e1{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-image: url(christopher-gower-m_HRfLhgABo-unsplash.jpg);
+    background-size: cover;
+    background-position: center ;
+    /* background-position: center; */
+    /* background-color: red; */
+}
+
+ .e2{
+    width: 50%;
+    height: 100vh;
+    background:rgb(236, 240, 240);
+    float: left;
+}
+.e2 h1{
+        margin-top: 20%;
+        margin-left: 15%;
+        color: black;
+}
+.e2 p, .e2 h3           {
+     margin-top: 5%;
+     margin-left: 15%;
+     color:black;
+}
+.happy{
+    width: 100%;
+    height: 50vh;
+    background-color:white;
+    position: absolute;
+}
+.happy h1{
+    margin-left: 40%;
+    margin-top:5%;
+} 
+.roge{
+    width: 33.33%;
+    height: 50vh;
+    background-color:rgb(199, 198, 207) ;
+    float: left; 
+    border-radius: 10%;
+}
+.roge1{
+    width: 33.33%;
+    height: 50vh;
+    background-color: rgb(199, 198, 207);
+     float: left;
+      border-radius: 10%;
+}
+.roge2{
+    width: 33.33%;
+    height: 50vh;
+    background-color: rgb(199, 198, 207);
+    float: left;
+     border-radius: 10%;
+}
+.happy h3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.happy h3{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.roge:hover{
+    background-color: beige;
+    cursor: pointer;
+  
+}
+.roge1:hover{
+    background-color: beige;
+    cursor: pointer;
+}
+.roge2:hover{
+    background-color: beige;
+    cursor: pointer;
+}
+.description{
+    width: 100%;
+    height: 50vh;
+    /* background-color: blue; */
+    margin-top: 35%;
+}
+.template{
+     width: 30%;
+     height: 90vh;
+     float: left;
+}
+.detail{
+     width: 70%;
+     height: 50vh;
+     /* background-color:    rgb(5, 94, 104) ; */
+     float: left;
+     font-size: 20px;
+}
+.description h1{
+    margin-left: 10%;
+}
+.template lo li{
+    padding-top: 10%;
+    padding-left:10%;
+}
+

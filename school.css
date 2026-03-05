@@ -1,0 +1,191 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+     width: 100%;
+     height: 100vh;
+     background-color:rgb(224, 140, 154);
+}
+nav{
+    width: 100%;
+    height: 100px;
+    /* background-color: red; */
+}
+.logo{
+    width: 20%;
+    height: 100%;
+    /* background-color: rgb(111, 111, 218); */
+    float: left;
+    /* padding: 20px; */
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+}
+.menu{
+    width: 80%;
+    height: 100%;
+    /* background-color: green; */
+    float: left;
+}
+.menu ul{
+  margin-top: 35px;
+  float: right;
+
+}
+.menu ul li{
+    list-style: none;
+    display: inline;
+    padding: 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.banner{
+    width: 100%;
+    height: calc(100vh - 100px);
+    /* background-color: blueviolet; */
+    background-image: url(img/erika-fletcher-MZxqc6n9qCw-unsplash\(1\).jpg);
+       background-size: cover;
+    background-position: center;
+}
+.note{
+    width: 100%;
+    height: 15vh;
+    /* background-color :pink;  */
+    font-size: 10px;
+}
+/* .page{
+    width: 100%;
+    height: 100vh;
+    background-image:url(img/erika-fletcher-MZxqc6n9qCw-unsplash\(1\).jpg);
+    background-size: cover;
+    background-position: center;
+} */
+.blank{
+    width: 100%;
+    height: 1px;
+    background-color:black;
+}
+.data{
+    width: 100%;
+    height: 96vh;
+    /* background-color: brown; */
+}
+.heading{
+    width: 100%;
+    height: 50px;
+    /* background-color: rgb(21, 67, 106); */
+     margin-top: 5px;
+     margin-left:10% ;
+}
+.instruction{
+    width: 100%;
+    height: 13%;
+    /* background-color: rgb(63, 130, 189); */
+    margin-top: 15px;
+}
+.first{
+    width: 100%;
+    height: 50px;
+    background-color:pink;
+}
+.two{
+    width: 100%;
+    height: 50px;
+    background-color: pink;
+    margin-top: 5px;
+}
+.three{
+     width: 100%;
+    height: 50px;
+    background-color: pink;
+    margin-top: 5px;
+}
+.four{
+     width: 100%;
+    height: 50px;
+    background-color: pink;
+    margin-top: 5px;
+}
+.five{
+     width: 100%;
+    height: 50px;
+    background-color: pink;
+    margin-top: 5px;
+}
+.six{
+     width: 100%;
+    height: 50px;
+    background-color: pink;
+    margin-top: 5px;
+}
+.seven{ width: 100%;
+    height: 50px;
+    background-color:pink;
+    margin-top: 5px;
+}
+.data h1{
+    color:black;
+}
+.view{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/m-monk-E813FON0wDQ-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.Teaching{
+    width: 100%;
+    height: 30vh;
+    background-color:rgb(232, 206, 210);
+}
+.blur{
+    width: 100%;
+    height: 30vh;
+    background-color:rgba(0, 0,0,0,10);
+    position: relative;
+}
+.Teaching li{
+    margin-left: 5%;
+}
+.notice{
+    width: 100%;
+    height: 40vh;
+    /* background-color: blue; */
+    position: relative;
+    top: 35%;
+}
+.notice button{
+      position: relative;
+      left: 40%;
+      background-color:pink;
+    }
+.Fome{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(235, 174, 204);
+  
+}
+.fome{
+    width: 50%;
+    height: 80%;
+    background-color: rgb(243, 223, 226);
+    position: relative;
+    left: 25%;  
+    top: 5%;
+
+}
+.Fome h1 {
+    position: relative;
+    left: 25%;
+}
+.Fome h4{
+    position: relative;
+    left: 25%;
+}

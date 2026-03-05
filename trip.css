@@ -1,0 +1,229 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html{
+    width: 100% !important  ;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: brown; 
+}
+header{ 
+    width: 100%;
+    height: 100vh;
+    background-color: blueviolet;
+    background-image: url(img/ross-parmly-rf6ywHVkrlY-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.logo{
+    width: 20%;
+    height: 100%;
+    /* background-color: olive; */
+    float: left;
+     background-image: url(img/farhat-altaf-kPwUmklByQ4-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+  
+}
+label{
+    font-size: 20px;
+    padding: 10px;
+   
+}
+input{
+    width: 160px;
+}
+select{
+    width: 160px;
+}
+.menu {
+    width: 80%;
+    height: 100%;
+    background-color: rgb(229, 248, 248);
+    float: left;
+}
+.menu ul{
+    margin-top: 15px;
+}
+.menu ul li{
+    list-style: none;
+    display: inline;
+    padding: 55px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color:black ;
+    font-size: 20px;
+}
+.blank{
+    width: 100%;
+    height: 40px;
+    /* background-color: black; */
+}
+.Booking{
+   width: 100%;
+   height: 80vh;
+   /* background-color: blue; */
+    
+}
+.info{
+    width: 60%;
+    height: 30vh;
+    top: 20%;
+    left: 10%;
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 20px gray ;
+   position: absolute;
+   /* background-color: rgb(245, 241, 241); */
+}
+
+.Service{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(246, 246, 198);
+    position: absolute;
+
+}
+.desti1{
+    width: 100%;
+    height: 40vh;
+    /* background-color: blue; */
+    margin-top: 1%; 
+    display: flex; 
+}
+.big{
+    width: calc(100% / 3);
+    height: 80%;
+    /* background-color: gray; */
+    padding: 20px;
+}
+.big .img1{
+    width: 100%;
+    height: 100%;
+}
+.img1 img{
+    width: 100%;
+    height: 100%;
+     background-size: cover;
+}
+.dis{
+    /* width: calc(100% / 3); */
+    height: 25%;
+    /* background-color: pink; */
+}
+.Profile{
+    width: 100%;
+    height: 120vh;
+    background-color: blue;
+}
+.air{
+    width: 100%;
+    height: 120vh;
+    /* background-color: rgb(7, 135, 135); */
+     background-image: url(img/rocker-sta-RSYBi_1fhfM-unsplash.jpg); 
+      background-position: center;
+    background-size: cover;   
+    
+}
+.off {
+    width: 100%;
+    height: 100vh;
+    /* margin-top: 10%; */
+    position: absolute;
+    /* margin-left: 5%; */
+    /* background-image: url(img/rocker-sta-RSYBi_1fhfM-unsplash.jpg); */
+    background-position: center;
+    background-size: cover;   
+}
+
+.tickit{
+     width: 100%;
+     height: 42%;
+     /* background-color: rgb(41, 25, 4); */
+    margin-top: 38%; 
+ }
+.price{
+    width: 33.33%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    /* border-radius: 20%; */
+    float: left;
+    color: wheat;
+}
+.price2{
+    width: 33.33%;
+    height: 100%;
+    /* background-color: rgb(161, 127, 255); */
+    /* border-radius: 20%; */
+    float: left;
+    color: wheat;
+}
+.price3{
+    width:33.33%;
+    height: 75%;
+    /* background-color: rgb(174, 127, 255); */
+    /* border-radius: 20%; */
+    float: left;
+    color: wheat;
+}
+.tickit p{
+    font-size: 30px;
+}
+.tickit h6{
+    margin-top: 10%;
+}
+.foot{
+    width: 100%;
+    height: 40vh;
+    /* background-color: rgb(162, 162, 232); */
+}
+.India{
+    width: 25%;
+    height: 100%; 
+    /* background-color: palevioletred; */
+    float: left;
+} 
+ .help{
+    width: 25%;
+    height: 100%; 
+    /* background-color: turquoise;  */
+    float: left;
+} 
+.cookie{
+    width: 25%;
+    height: 100%; 
+     /* background-color: tomato;  */
+     float: left;
+}
+
+.explor{
+     width: 25%;
+    height: 100%;
+  /* background-color:rgb(151, 45, 45); */
+     float: left; 
+}
+.foot h2{
+    font-size: 20px;
+    padding: 5%;
+}
+.India h2:hover{
+    color: rgb(33, 77, 197);
+    cursor: pointer;
+}
+.help h2:hover{
+    color: rgb(33, 77, 197);
+    cursor: pointer;
+}
+.cookie h2:hover{
+    color: rgb(33, 77, 197);
+    cursor: pointer;
+}
+.explor h2:hover{
+    color:rgb(33, 77, 197);
+    cursor: pointer;
+}
